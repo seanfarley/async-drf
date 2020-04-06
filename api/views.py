@@ -6,7 +6,7 @@ from .serializers import BookSerializer
 
 
 @api_view(['GET'])
-def book_api_view(request):
+async def book_api_view(request):
     books = Book.objects.all()
     bs = BookSerializer(books, many=True)
     return Response(bs.data)
