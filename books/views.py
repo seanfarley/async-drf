@@ -3,7 +3,7 @@ from django.template.response import TemplateResponse
 from .models import Book
 
 
-def book_list_get(request):
+async def book_list_get(request):
     ctx = {
         "object_list": Book.objects.all()
     }
