@@ -1,0 +1,2 @@
+git+https://github.com/django/django.git@026719cf17ae2b088f7553321f2ca6b45efa8cb4
+git+https://github.com/encode/django-rest-framework.git@0c8eb91737513029a7a12e719d7de8d68c8181f3
